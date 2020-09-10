@@ -25,7 +25,7 @@ services:
             PGID: 1000
             PUID: 1000
             TZ: $$cap_timezone
-        image: linuxserver/codimd:1.6.0-ls44
+        image: linuxserver/codimd:latest
         CMD_DOMAIN: codimd.frf.ai
         restart: always
         volumes:
